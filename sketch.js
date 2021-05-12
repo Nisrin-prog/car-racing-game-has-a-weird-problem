@@ -1,6 +1,6 @@
 var form,player,game;
 var playerCount = 0;
-
+var database
 var gameState = 0;
 
 function setup(){
