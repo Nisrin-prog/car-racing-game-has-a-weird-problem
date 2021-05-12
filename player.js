@@ -13,7 +13,7 @@ class Player{
         })
     }
     update(name){
-        var index = "players/player"+ playerCount
+        var index = "player"+playerCount
         console.log(index)
         database.ref(index).set({
             name: name
